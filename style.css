@@ -1,0 +1,93 @@
+/* use universal decorator */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1, h2{
+
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+p{
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+/* first i am targeting the hero class */
+.hero{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.hero .container{
+
+    display: flex; /* iske use se column ke form me aa gya */
+    gap: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(23, 23, 23, 0.6);
+    box-shadow: 10px 20px 20px;
+
+}
+
+/* now targetting the "all" the boxes */
+.box{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+
+/* abhi boxes rows ke form me aa rhe hai lekin ise column form me laana hai for this target the container class /*
+/*
+  Now, I need to target the individual boxes. I'll use #box1{}, #box2{}, etc.
+*/
+
+#box1{
+
+    /*
+       change the color of it 
+    */
+
+    background-color: red;
+
+}
+#box2{
+
+    background-color: green;
+    
+
+}
+
+
+#box3{
+
+    background-color: blue;
+
+}
+
+#box4{
+
+    background-color: yellow;
+
+}
+
+#box5{
+
+    background-color: violet;
+
+}
+
+
+
